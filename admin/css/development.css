@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Titillium+Web');
+
+h1#header{
+    position: relative;
+    top: 45px;
+    background-color: #e6e7e7;
+}
+body#corpo{
+    height: 100%;
+    margin: 0;
+}
+.materialContent {
+    width: auto;
+    height: 70px;
+    min-height: 50px;
+}
+
+div.systemDevelopment{
+    font-family: 'Roboto';
+    background-color: #e6e7e7;
+    z-index: 10;
+}
+
+.formlogin{
+    text-align: center;
+    border: 1px solid black;
+    border-bottom-right-radius: 7px;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.formlogin input{
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0;
+    margin: 10px;
+    max-width: 400px;
+
+}
+
+
+html {
+    border: 10px solid black;
+    background-image: url(../../_imagens/blucar.png);
+}
+
+.title{
+    max-width: 500px;
+    width: auto;
+    height: 20px;
+}
+
+
+/*CRIAÇÃO DE EXERCICIOS*/
+header{
+    position: relative;
+    text-align: center;
+    display: inline;
+    font-family: "arial";
+    top: 0px;
+    background-color: gray;
+}
+h1#headerh1{
+    background-color: gray;
+}
+.ex-creation {
+    position: relative;
+    margin-top: -50px;
+    padding: 30px;
+    font-family: 'Roboto';
+    height: 100%;
+}
+main.ex-creation {
+    position: relative;
+    padding: 50px;
+    margin-top: 0px;
+    
+}
+main#ex-creation input{
+    position: relative;
+    margin: 10px;
+    
+}
+.form{
+    margin: 0 auto;
+}
+.questionForm{
+    max-width: 600px;
+}
+
+td:hover{
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+table#alts::before{
+    content: "Insira as Alternativas:";
+    color: green;
+    font-size: 20px; 
+    font-weight: bolder;
+}
+
+table#alts{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.questionSpans{
+    text-align: right;
+}
+
+input#imgfile{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    display: block;
+    width: auto;
+}
+
+
+h4#obs{
+    position: relative;
+    text-align-last: center;
+    margin-bottom: 0;
+}
+
+textarea#description {
+    width:100%;
+    max-width: 500px;
+}
+input#button.button{
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    background-color: orange;
+    background-image: url(../../_imagens/arrow.png);
+    background-size: contain;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn{
+    align-self: center;
+    width: auto;
+    border: 0;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    color: white;
+    background-image: url(../../_imagens/arrow.png);
+    background-color: orange;
+    background-position: center;
+    display: block;
+    margin-left: 50px;
+    text-shadow: 1px 1px 10px black;
+    margin: 30px;
+}
+.btn::before{
+    content:'';
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+.sec {
+    background-color:black;
+}
+.button{
+    width:auto !important;
+}
+
+h3.guide{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: red;
+    margin: 20px;
+    display: inline-block;
+    font-family: 'Roboto';
+}
+ input:hover{
+    
+    
+    border-bottom: 1px solid black;
+    
+}
+select{
+    margin: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+aside#demo-section{
+    position: relative;
+    float: right; 
+    width:100%;
+    max-width: 750px;
+    padding: 10px;
+    height:auto;
+    margin: 0 auto;
+    display: inline-flex;
+}
+aside#demo-section div#exercise-page{
+    
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    float: right;
+}
+aside#demo-section div#demo-img{
+    position: relative;
+    width:auto;
+    max-width: 450px;
+    display:block;
+    margin-top: 00px;
+}
+img#demo{
+    max-width: 450px;
+    border-radius: 50px;
+}
+
+/**/
+footer#rodape2{
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 0;
+    bottom: 0;
+}
+/*******************************/
+
+/*EXERCISE NAV*/
+div#nav-points {
+    position: relative;
+    float: right;
+    margin: 0 auto;
+}
+.scoreNav {
+    position: relative;
+    top: 0px;
+    margin: 2px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    max-width: 140px;
+    max-height: 50px;
+    display: flex;
+    margin-bottom: 60px;
+}
+div#score2 {
+    margin: 0px;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin-right: -80px;
+    max-width: 100px;
+    max-height: 25px;
+    margin-bottom: 8px;
+
+}
+div#score2 p{
+    position: relative;
+    font-weight: bolder;
+    width: auto;
+    right: 20px;
+}
+div#points-bar{
+    background-color: lightgreen;
+    border:0; 
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    transition-duration: .5s;
+}
+.marks{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,.3);
+    margin: 0 auto;
+    background-color: white;
+    transition-duration: 1s;
+}
+div#marks{
+    padding: 20px;
+    border: 0;
+}
+div#mark1{
+    
+}
+
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+.options{
+    padding:10px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    background-color: orangered;
+}
+.options:hover{
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+}
+
+/**/
+
+/*MAIN PAGE*/
+div#exercise-page
+{
+    position: relative;
+    margin: 0 auto;
+    padding: 64px;
+    padding-top: 8px;
+    border-radius: 60px;
+    box-shadow: 1px 1px 50px gray;
+    background-color: white;
+    width: 100%;
+    max-width:650px;
+}
+
+h4#ex-title,h3#ex-desc{/*TITULO DO EXERCICIO*/
+    color: rgba(0,0,0,.5);
+    font-size: 15px;
+}
+
+advanced-textfield{
+    border: 1px solid black;
+
+}
+
+div#exercise-page img{
+    max-width: 200px;
+    display: block;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    }
+
+div#description2{
+    margin-bottom: -0px;
+}
+
+div#ex-display{
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+div#question2{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+div#questionBox{
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+h3#statementSpan{
+    position: relative;
+    display: block;
+    margin: 0;
+    color: green;
+}
+
+h1#ex-question::after{
+    margin-bottom: 0px ;
+}
+div#answers2{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+div#answers{
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        height:auto;
+}
+section#answerSection{
+        padding:0;
+        margin:0;
+}
+
+.alternatives{
+        border: 1px solid black;
+        padding: 5px;
+        margin:10px;
+        height: auto;
+        min-width:150px;
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+}
+
+.answerContent{
+    position: relative;
+    background-color: red;
+    display: inline-table;
+}
+
+.altNum{
+    position: relative;
+    display: inline;
+    right: 30px;
+
+}
+.alternatives:hover{
+    cursor:pointer;
+    background-color: rgba(0,0,0,.5);
+}
+.alternatives img{
+    z-index: -1;
+    pointer-events: none;
+}
+
+footer{
+    display: none;
+}
+
+/*-------------------------*/
+@media screen and (max-width: 400px){
+    main.ex-creation{
+        padding: 0;
+        margin: 0;
+    }
+}
