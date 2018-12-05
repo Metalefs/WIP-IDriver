@@ -1,0 +1,755 @@
+[28-Oct-2018 20:18:01 UTC] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home/u911430744/public_html/eumotorista/index.php on line 12
+[28-Oct-2018 20:18:38 UTC] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home/u911430744/public_html/eumotorista/index.php on line 12
+[29-Oct-2018 13:08:12 UTC] PHP Fatal error:  Uncaught Exception: Cannot get Total Exercises from subject. in /home/u911430744/public_html/eumotorista/_php/Subject.php:103
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/activity-info.php(192): Subject->__construct('2')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Subject.php on line 103
+[29-Oct-2018 17:32:50 UTC] PHP Fatal error:  Uncaught Exception: Cannot get Total Exercises from subject. in /home/u911430744/public_html/eumotorista/_php/Subject.php:103
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/activity-info.php(192): Subject->__construct('2')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Subject.php on line 103
+[29-Oct-2018 21:30:56 UTC] PHP Notice:  Undefined variable: _SESSION in /home/u911430744/public_html/eumotorista/logout.php on line 3
+[29-Oct-2018 21:30:56 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[30-Oct-2018 04:46:54 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:54 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:55 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:55 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:58 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:58 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:59 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:59 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:46:59 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:06 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:07 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:08 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 04:47:08 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[30-Oct-2018 05:41:08 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[30-Oct-2018 05:41:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[30-Oct-2018 05:41:13 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[30-Oct-2018 05:41:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[30-Oct-2018 10:37:09 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/addScore.php on line 19
+[30-Oct-2018 10:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/addScore.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/addScore.php on line 19
+[30-Oct-2018 12:26:30 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 52
+[30-Oct-2018 12:26:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[31-Oct-2018 21:31:10 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:10 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:16 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:20 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:21 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:24 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:25 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:30 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:31 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[31-Oct-2018 21:32:19 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[31-Oct-2018 21:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[02-Nov-2018 12:40:42 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 52
+[02-Nov-2018 12:40:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[02-Nov-2018 16:02:18 UTC] PHP Notice:  Undefined variable: _SESSION in /home/u911430744/public_html/eumotorista/logout.php on line 3
+[02-Nov-2018 16:02:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[02-Nov-2018 16:02:27 UTC] PHP Notice:  Undefined variable: _SESSION in /home/u911430744/public_html/eumotorista/logout.php on line 3
+[02-Nov-2018 16:02:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[03-Nov-2018 13:19:49 UTC] PHP Notice:  Undefined variable: _SESSION in /home/u911430744/public_html/eumotorista/logout.php on line 2
+[03-Nov-2018 13:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function userAccount() in /home/u911430744/public_html/eumotorista/logout.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/logout.php on line 4
+[03-Nov-2018 13:20:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function userAccount() in /home/u911430744/public_html/eumotorista/logout.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[03-Nov-2018 13:20:21 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[03-Nov-2018 13:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[03-Nov-2018 13:25:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function userAccount() in /home/u911430744/public_html/eumotorista/logout.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[03-Nov-2018 13:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function userAccount() in /home/u911430744/public_html/eumotorista/logout.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[03-Nov-2018 13:25:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function userAccount() in /home/u911430744/public_html/eumotorista/logout.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/logout.php on line 5
+[03-Nov-2018 15:35:06 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[03-Nov-2018 15:35:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[03-Nov-2018 23:37:59 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[03-Nov-2018 23:37:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[03-Nov-2018 23:38:01 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[03-Nov-2018 23:38:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[05-Nov-2018 12:06:23 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[05-Nov-2018 12:06:59 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[05-Nov-2018 12:16:37 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[05-Nov-2018 12:16:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[05-Nov-2018 12:16:49 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[05-Nov-2018 12:16:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[05-Nov-2018 12:24:23 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 52
+[05-Nov-2018 12:24:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[05-Nov-2018 12:24:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 64
+[05-Nov-2018 12:25:58 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 49
+[05-Nov-2018 12:25:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 58
+[05-Nov-2018 12:25:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:26) in /home/u911430744/public_html/eumotorista/cursos.php on line 64
+[05-Nov-2018 12:28:39 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 79
+[05-Nov-2018 12:30:05 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:30:09 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:30:26 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:31:09 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:32:13 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:33:24 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 80
+[05-Nov-2018 12:35:03 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:35:22 UTC] PHP Notice:  Undefined variable: value in /home/u911430744/public_html/eumotorista/cursos.php on line 78
+[05-Nov-2018 12:38:37 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 53
+[05-Nov-2018 12:38:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[05-Nov-2018 12:38:39 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 53
+[05-Nov-2018 12:38:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[05-Nov-2018 13:13:10 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[05-Nov-2018 13:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[05-Nov-2018 13:13:12 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[05-Nov-2018 13:13:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[05-Nov-2018 13:39:54 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[05-Nov-2018 13:39:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[05-Nov-2018 20:59:53 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[06-Nov-2018 09:51:43 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 97
+[06-Nov-2018 09:51:43 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 97
+[06-Nov-2018 09:51:43 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 109
+[06-Nov-2018 09:51:43 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 242
+[06-Nov-2018 09:51:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /home/u911430744/public_html/eumotorista/profile.php:242
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/profile.php on line 242
+[08-Nov-2018 00:24:46 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[08-Nov-2018 00:24:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[08-Nov-2018 13:39:57 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 14:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 14:09:21 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 20:04:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/u911430744/public_html/eumotorista/index.php on line 168
+[08-Nov-2018 20:54:29 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 20:54:29 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 20:54:45 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 20:54:45 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 20:55:17 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 20:55:17 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 20:56:13 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 20:56:13 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 20:57:16 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 20:57:16 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 22:11:44 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 22:11:44 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 22:12:15 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 22:12:15 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 22:13:48 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[08-Nov-2018 22:13:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[08-Nov-2018 22:13:48 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[08-Nov-2018 22:13:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[08-Nov-2018 22:14:30 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 22:14:30 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 22:14:59 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/_php/nav-cursos.php on line 82
+[08-Nov-2018 22:14:59 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/cursos.php on line 21
+[08-Nov-2018 23:01:03 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[08-Nov-2018 23:01:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[08-Nov-2018 23:01:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[08-Nov-2018 23:01:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[08-Nov-2018 23:40:02 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:07 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:11 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:18 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:30 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:31 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:37 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:38 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[08-Nov-2018 23:40:39 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 10:15:24 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 97
+[09-Nov-2018 10:15:24 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 97
+[09-Nov-2018 10:15:24 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 109
+[09-Nov-2018 10:15:24 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/profile.php on line 240
+[09-Nov-2018 10:15:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /home/u911430744/public_html/eumotorista/profile.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/profile.php on line 240
+[09-Nov-2018 16:21:14 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[09-Nov-2018 16:21:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[09-Nov-2018 17:42:57 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[09-Nov-2018 17:42:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[09-Nov-2018 17:44:22 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[09-Nov-2018 17:44:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[09-Nov-2018 18:54:21 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:28 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:38 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:40 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[09-Nov-2018 18:54:41 UTC] PHP Fatal error:  Uncaught Error: Call to protected method Account::setPictureId() from context '' in /home/u911430744/public_html/eumotorista/changeAvatar.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/changeAvatar.php on line 22
+[10-Nov-2018 01:32:18 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[10-Nov-2018 01:32:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[10-Nov-2018 01:32:18 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[10-Nov-2018 01:32:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[10-Nov-2018 10:19:18 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[10-Nov-2018 10:19:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[10-Nov-2018 11:18:42 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[10-Nov-2018 11:18:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[10-Nov-2018 20:22:59 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[10-Nov-2018 20:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[11-Nov-2018 01:34:11 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[11-Nov-2018 01:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[11-Nov-2018 13:52:59 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[11-Nov-2018 13:52:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[11-Nov-2018 19:17:24 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 53
+[11-Nov-2018 19:17:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[11-Nov-2018 19:17:25 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 53
+[11-Nov-2018 19:17:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[12-Nov-2018 16:02:44 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[12-Nov-2018 16:02:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[12-Nov-2018 16:31:34 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[12-Nov-2018 16:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[13-Nov-2018 14:34:14 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[13-Nov-2018 14:34:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[13-Nov-2018 14:34:15 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[13-Nov-2018 14:34:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[14-Nov-2018 10:10:07 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[14-Nov-2018 10:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[14-Nov-2018 11:13:15 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[14-Nov-2018 11:13:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[15-Nov-2018 10:20:55 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[15-Nov-2018 10:20:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[16-Nov-2018 00:52:26 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[16-Nov-2018 00:52:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[16-Nov-2018 00:52:46 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/activity-info.php on line 96
+[16-Nov-2018 00:52:46 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/activity-info.php on line 96
+[16-Nov-2018 00:52:46 UTC] PHP Notice:  Undefined index: userAccount in /home/u911430744/public_html/eumotorista/activity-info.php on line 108
+[16-Nov-2018 00:53:03 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[16-Nov-2018 00:53:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[20-Nov-2018 20:09:53 UTC] PHP Warning:  require(/fpdf181/fpdf.php): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 2
+[20-Nov-2018 20:09:53 UTC] PHP Warning:  require(/fpdf181/fpdf.php): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 2
+[20-Nov-2018 20:09:53 UTC] PHP Fatal error:  require(): Failed opening required '/fpdf181/fpdf.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 2
+[20-Nov-2018 20:26:59 UTC] PHP Warning:  fopen(logo.png): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 1259
+[20-Nov-2018 20:26:59 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: logo.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('logo.png', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:27:27 UTC] PHP Warning:  fopen(_imagens/car.png): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 1259
+[20-Nov-2018 20:27:27 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: _imagens/car.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('_imagens/car.pn...')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('_imagens/car.pn...', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:28:08 UTC] PHP Warning:  fopen(_imagens/17.png): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 1259
+[20-Nov-2018 20:28:08 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: _imagens/17.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('_imagens/17.png')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('_imagens/17.png', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:28:10 UTC] PHP Warning:  fopen(_imagens/17.png): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 1259
+[20-Nov-2018 20:28:10 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: _imagens/17.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('_imagens/17.png')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('_imagens/17.png', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:32:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: facisa-logo-pdf.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1296): FPDF->Error('Interlacing not...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1262): FPDF->_parsepngstream(Resource id #5, 'facisa-logo-pdf...')
+#2 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('facisa-logo-pdf...')
+#3 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('facisa-logo-pdf...', 10, 10, -300)
+#4 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:32:27 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: facisa-logo-pdf.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1296): FPDF->Error('Interlacing not...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1262): FPDF->_parsepngstream(Resource id #5, 'facisa-logo-pdf...')
+#2 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('facisa-logo-pdf...')
+#3 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('facisa-logo-pdf...', 10, 10, 10)
+#4 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:33:04 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: facisa-logo-pdf.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1296): FPDF->Error('Interlacing not...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1262): FPDF->_parsepngstream(Resource id #5, 'facisa-logo-pdf...')
+#2 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('facisa-logo-pdf...')
+#3 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('facisa-logo-pdf...', 10, 10, 310)
+#4 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:33:39 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: facisa-logo-pdf.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1296): FPDF->Error('Interlacing not...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1262): FPDF->_parsepngstream(Resource id #5, 'facisa-logo-pdf...')
+#2 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('facisa-logo-pdf...')
+#3 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->Image('facisa-logo-pdf...', 10, 10, 310)
+#4 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:36:27 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: _imagens/facisa-logo-pdf.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1296): FPDF->Error('Interlacing not...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1262): FPDF->_parsepngstream(Resource id #5, '_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('_imagens/facisa...')
+#3 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#4 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:37:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Not a JPEG file: _imagens/facisa-logo-pdf.jpg in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1244): FPDF->Error('Not a JPEG file...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsejpg('_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:37:20 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Not a JPEG file: _imagens/facisa-logo-pdf.jpg in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1244): FPDF->Error('Not a JPEG file...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsejpg('_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:37:22 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Not a JPEG file: _imagens/facisa-logo-pdf.jpg in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1244): FPDF->Error('Not a JPEG file...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsejpg('_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:37:48 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Not a JPEG file: _imagens/facisa-logo-pdf.jpeg in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1244): FPDF->Error('Not a JPEG file...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsejpg('_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:37:50 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Not a JPEG file: _imagens/facisa-logo-pdf.jpeg in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1244): FPDF->Error('Not a JPEG file...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsejpg('_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 20:41:51 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Interlacing not supported: _imagens/facisa-logo.png in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1296): FPDF->Error('Interlacing not...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1262): FPDF->_parsepngstream(Resource id #5, '_imagens/facisa...')
+#2 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(885): FPDF->_parsepng('_imagens/facisa...')
+#3 /home/u911430744/public_html/eumotorista/PDFcreator.php(6): FPDF->Image('_imagens/facisa...', 10, 10, -300)
+#4 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[20-Nov-2018 22:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetPageHeight() in /home/u911430744/public_html/eumotorista/PDFcreator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 7
+[20-Nov-2018 22:58:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FPDF::Write(), 1 passed in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 9 and at least 2 expected in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:771
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(9): FPDF->Write('N\xC3\xBAcleo de Est\xC3...')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 771
+[21-Nov-2018 20:09:09 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Undefined font: times new roman B in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(510): FPDF->Error('Undefined font:...')
+#1 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->SetFont('times new roman', 'B', 10)
+#2 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[21-Nov-2018 20:10:15 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Undefined font: times new roman B in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(510): FPDF->Error('Undefined font:...')
+#1 /home/u911430744/public_html/eumotorista/PDFcreator.php(8): FPDF->SetFont('times new roman', 'B', 10)
+#2 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[21-Nov-2018 20:14:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FPDF::Write(), 1 passed in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 9 and at least 2 expected in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:771
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(9): FPDF->Write(80)
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 771
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 580
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 614
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 618
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 620
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 620
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 634
+[21-Nov-2018 20:20:04 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 648
+[21-Nov-2018 20:20:04 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(1063): FPDF->Error('Some data has a...')
+#1 /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/u911430744/public_html/eumotorista/PDFcreator.php(26): FPDF->Output()
+#3 {main}
+  thrown in /home/u911430744/public_html/eumotorista/fpdf181/fpdf.php on line 271
+[21-Nov-2018 20:40:18 UTC] PHP Notice:  Undefined variable: PDF in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 32
+[21-Nov-2018 20:40:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function MultiCell() on null in /home/u911430744/public_html/eumotorista/PDFcreator.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 32
+[21-Nov-2018 20:43:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'n' in /home/u911430744/public_html/eumotorista/PDFcreator.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 32
+[21-Nov-2018 20:47:01 UTC] PHP Parse error:  syntax error, unexpected 'Gerenciamento' (T_STRING), expecting ',' or ')' in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 33
+[21-Nov-2018 20:53:21 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ')' in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 48
+[21-Nov-2018 20:53:38 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 49
+[21-Nov-2018 22:09:29 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[21-Nov-2018 22:09:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[21-Nov-2018 22:09:30 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[21-Nov-2018 22:09:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[22-Nov-2018 20:45:25 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[22-Nov-2018 20:45:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[22-Nov-2018 20:45:26 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[22-Nov-2018 20:45:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[22-Nov-2018 20:48:29 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[22-Nov-2018 20:48:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[22-Nov-2018 20:48:30 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/public_html/eumotorista/cursos.php on line 50
+[22-Nov-2018 20:48:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/public_html/eumotorista/cursos.php:27) in /home/u911430744/public_html/eumotorista/cursos.php on line 59
+[23-Nov-2018 20:22:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 52
+[23-Nov-2018 21:04:23 UTC] PHP Fatal error:  Cannot redeclare Estagio::getTurno() in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 42
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: nome in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: RA in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: periodo in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: turno in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: ddd in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: telefone in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: celular in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: email in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Notice:  Undefined variable: empresa in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 5
+[23-Nov-2018 21:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::setSubjectId() in /home/u911430744/public_html/eumotorista/_php/Estagio.php:110
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(5): Estagio->__construct(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 110
+[23-Nov-2018 21:07:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::setSubjectId() in /home/u911430744/public_html/eumotorista/_php/Estagio.php:110
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(5): Estagio->__construct('Jackson', '15566', '2\xC2\xB0', 'Noite', '31', '92394685', '92394685', 'jack-ten@hotmai...', 'FGJMP')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 110
+[23-Nov-2018 21:10:05 UTC] PHP Notice:  Undefined variable: aluno in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 118
+[23-Nov-2018 21:10:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::setPeriodo() in /home/u911430744/public_html/eumotorista/_php/Estagio.php:120
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(5): Estagio->__construct('Jackson', '15566', '2\xC2\xB0', 'Noite', '31', '92394685', '92394685', 'jack-ten@hotmai...', 'FGJMP')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 120
+[23-Nov-2018 21:10:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::setPeriodo() in /home/u911430744/public_html/eumotorista/_php/Estagio.php:120
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(5): Estagio->__construct('Jackson', '15566', '2\xC2\xB0', 'Noite', '31', '92394685', '92394685', 'jack-ten@hotmai...', 'FGJMP')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 120
+[23-Nov-2018 21:11:22 UTC] PHP Fatal error:  Cannot redeclare Estagio::setPeriodo() in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 119
+[23-Nov-2018 21:11:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::setEmpresa() in /home/u911430744/public_html/eumotorista/_php/Estagio.php:133
+Stack trace:
+#0 /home/u911430744/public_html/eumotorista/PDFcreator.php(5): Estagio->__construct('Jackson', '15566', '2\xC2\xB0', 'Noite', '31', '92394685', '92394685', 'jack-ten@hotmai...', 'FGJMP')
+#1 {main}
+  thrown in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 133
+[23-Nov-2018 21:12:26 UTC] PHP Fatal error:  Cannot redeclare Estagio::getEmpresa() in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 122
+[23-Nov-2018 21:12:47 UTC] PHP Fatal error:  Cannot redeclare Estagio::getEmpresa() in /home/u911430744/public_html/eumotorista/_php/Estagio.php on line 122
+[23-Nov-2018 21:13:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::getNnome() in /home/u911430744/public_html/eumotorista/PDFcreator.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 28
+[23-Nov-2018 21:14:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Estagio::getNnome() in /home/u911430744/public_html/eumotorista/PDFcreator.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 28
+[23-Nov-2018 21:16:32 UTC] PHP Notice:  Undefined variable: fpdf in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 25
+[23-Nov-2018 21:16:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function SetFont() on null in /home/u911430744/public_html/eumotorista/PDFcreator.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/PDFcreator.php on line 25
+[24-Nov-2018 10:01:41 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[24-Nov-2018 10:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[25-Nov-2018 15:17:17 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[25-Nov-2018 15:17:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[27-Nov-2018 10:41:42 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[27-Nov-2018 10:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/public_html/eumotorista/activities.php on line 18
+[27-Nov-2018 20:12:47 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 50
+[27-Nov-2018 20:12:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php:27) in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 59
+[27-Nov-2018 20:12:48 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 50
+[27-Nov-2018 20:12:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php:27) in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 59
+[27-Nov-2018 21:14:11 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 50
+[27-Nov-2018 21:14:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php:27) in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 59
+[27-Nov-2018 21:14:12 UTC] PHP Warning:  A non-numeric value encountered in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 50
+[27-Nov-2018 21:14:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php:27) in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/cursos.php on line 59
+[29-Nov-2018 11:44:09 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[29-Nov-2018 11:44:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[30-Nov-2018 12:03:50 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[30-Nov-2018 12:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[01-Dec-2018 22:52:05 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[01-Dec-2018 22:52:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[02-Dec-2018 11:40:36 UTC] PHP Notice:  Undefined variable: userAccount in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
+[02-Dec-2018 11:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u911430744/domains/portifoliotgm.esy.es/public_html/eumotorista/activities.php on line 18
