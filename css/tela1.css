@@ -1,0 +1,187 @@
+html {
+    color: #333;
+    line-height: 1.15;
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 1px 1px 300px black;
+}
+
+/*TODA A TELA DE LOGIN*/
+
+main#top a {
+    font-weight: bold;
+    text-decoration: none;
+}
+main#top a:hover {
+    box-shadow: 1px 1px 10px black;
+}
+
+
+p.header-button.animate-pop-in{
+    position: relative;
+    float: right;
+    background-color: none;
+    z-index: 11;
+    width: auto;
+    height: auto;
+    font-size: small;
+    /* display: inline-block; */
+    /* margin-top: 24px; */
+}
+
+.button {
+    position: relative;
+    background: white;
+    border-radius: .8rem;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+    z-index: 11;
+    font-weight: bold;
+    /* font-family: sans-serif; */
+}
+.button:hover {
+    right:2px;
+    box-shadow: 1px 1px 25px green;
+    cursor: pointer;
+}
+
+/*HEADERTOP*/
+
+main#top {
+  
+  border: 10px solid black;
+  border-top: none;
+  overflow: visible;
+  position: relative;
+  font-size: 16px;
+  width: auto;
+  background: rgb(203,96,179);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%, rgba(173,18,131,1) 50%, rgba(222,71,172,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 20%,rgba(222,71,172,1) 70%);
+    background: radial-gradient(ellipse at center, rgb(175, 21, 21) 5%,rgb(156, 0, 0) 40%,rgba(0, 20, 255, 0.85) 119%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=1 );
+    background-image: url("../_imagens/back-mobile4.jpg");
+    background-size: cover;
+    background-position:left;
+    background-origin: padding-box;
+    background-repeat: none;
+}
+
+
+
+main#top::before {
+  animation: fade-slide-down 2s 5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  background-size: cover;
+  content: "";
+  opacity: 0;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  z-index: -1;
+}
+
+.animate-pop-in {
+  opacity: 0;
+  animation: pop-in .6s ease-out forwards;
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+  animation-delay:.6s;
+  position: relative;
+  margin: 10px;
+}
+
+.header-title {
+  animation-delay: .8s;
+}
+
+.header-subtitle {
+  animation-delay: 1s;
+}
+
+.header-button {
+  animation-delay: 0.2s;
+}
+
+/*ANIMATIONS*/
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pop-in {
+
+      0% {
+        opacity: 0;
+        transform: translateY(-4rem) scale(.8);
+      }
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+}
+
+/**/
+
+main#top::after {
+      animation: fade-slide-down 2s 5s cubic-bezier(0, 1, 0, 1) forwards;
+      transition-duration: 4s;
+      background: #F9FCFF;
+      content: "";
+      text-align: center;
+      -webkit-transform: rotateZ(-4deg);
+              /* transform: rotateZ(4deg); */
+      -webkit-transform-origin: 0 0;
+              transform-origin: 0 0;
+    /*    background-color: rgba(0,0,0,.5);
+        color:white*/;
+    }
+    .header-title, .header-subtitle {
+      color: #fff;
+    }
+
+    .header-subtitle {
+      margin-bottom: 5rem;
+
+}
+
+@media only screen and (max-width: 820px) {
+
+        main#top {
+          
+          border:10px solid black;
+          border-top: none;
+          overflow:visible;
+          position: relative;
+          font-size: 14px;
+             background: rgb(203,96,179);
+             background: -moz-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%, rgba(173,18,131,1) 50%, rgba(222,71,172,1) 100%);
+             background: -webkit-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 20%,rgba(222,71,172,1) 70%);
+             background: radial-gradient(ellipse at center, rgb(175, 21, 21) 5%,rgb(156, 0, 0) 40%,rgba(0, 20, 255, 0.85) 119%);
+             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=1 );
+        background-image:url("/_imagens/back-mobile4.jpg");
+        background-origin:padding-box;
+        background-position:left;
+        background-size: cover;
+    }
+        main#top::backdrop {
+
+          filter: contrast(50%);
+
+    }
+
+}

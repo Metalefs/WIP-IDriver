@@ -1,0 +1,980 @@
+/**/
+
+/**{
+    border:1px solid red;
+}*/
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Titillium+Web');
+/* Text styles */
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+
+body {
+  font-size: 100%;
+  height: 100%;
+  width: auto;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+/* Body Content */
+
+#page {
+  font-size: 1em;
+  /* equivalent to 16px */
+  line-height: 1.25;
+  /* equivalent to 20px */
+}
+
+@media (min-width: 43.75em) {
+  #page {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.375;
+    /* equivalent to 22px */
+  }
+}
+
+a:hover, a:visited, a:active, a {
+    text-decoration: none;
+    font-style: none;
+    color:red;
+}
+
+
+ul{
+    list-style: none;
+}
+
+body#corpo {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto';
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+[hidden] {
+    display: none;
+}
+/* Columns and layout */
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*BARRA HORIZONTAL*/
+nav#bread-crumbs a#title{
+    color: white;
+    font-family: "Titillium Web";
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    left: 30px;
+    transition: .5s;
+    display: inline;
+    
+}
+nav#bread-crumbs a#title:hover{
+    color: white;
+    text-shadow: 1px 1px 15px black;
+    left: 60px;
+}
+
+nav#bread-crumbs {
+    filter: none;
+    background-color: black;
+    padding-bottom: 1px;
+    left:0px;
+    position: sticky;
+    top:0;
+    box-shadow: 2px 2px 15px gray;
+    height: 67px;
+    width: 100%;
+    border: 1px solid black;
+    z-index: 8;
+    display: inline-block;
+}
+
+/*-----*/
+
+
+nav#bread-crumbs img#tempicon{
+    width: 40px;
+    height:40px;
+    position: relative;
+    z-index: 8;
+    display: inline-block;
+    left: 25px;
+    top:10px;
+    transition-duration: 1s;
+}
+nav#bread-crumbs img#tempicon:hover{
+    left: 20px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+
+
+
+ a#scroll{
+    padding: 20px;
+    width: auto;
+    height: 100%;
+    margin-top: -10px !important;
+    margin-right: 0px;
+    background: rgba(0,225,5,.7);
+    position: relative;
+    z-index: 11;
+    color: white;
+    display: block;
+    border-radius: .8rem;
+}
+a#login-href{
+    visibility:hidden;
+    display:none;
+}
+/*NAV-IN.PHP*/
+
+
+
+
+
+
+
+/*TELA PRINCIPAL*/
+
+section.header-content{
+    border: 1px solid rgba(255,255,255,.5);
+    margin-top: -18px;
+    height: auto;
+    width: 100%;
+    
+}
+section.header-content h3{
+   
+}
+
+
+
+.header-file{ /*IMAGEM*/
+    width:500px;
+    height:200px;
+    float:left;
+    margin-top: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom:20px;
+}
+
+/*LOGIN*/
+
+form#login{
+    margin-right: 0px;
+    position: relative;
+    margin: 30px;
+    font-family: "Titillium Web";
+    text-overflow: ellipsis;
+    margin-bottom: -0px;
+    display: grid;
+    margin-top: 350px;
+    height: 100%;
+}
+
+label#label-login { 
+    position: relative;
+    pointer-events: visiblePainted;
+    color: white;
+    margin-top: 50px;
+    margin-left: 70px;
+    text-shadow: 1px 1px 10px black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.login{
+    font-size:10px;
+    font-family: "Titillium Web";
+    display: block;
+    position: relative;
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    transition-duration: .2s;
+    border-color: gray;
+}
+
+#eye2{
+    position: relative;
+    display: inline-block;
+    bottom: 25px;
+    margin-left: 330px;
+}
+
+div#alert-login{
+    margin-top: -30px;
+    margin-bottom: -50px;
+    text-align: center;
+    color: red;
+    background-color: rgba(0,0,0,.5);
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px black;
+}
+
+/*---------------*/
+
+/*CAMPOS DE EMAIL E PASSWORD*/
+input#email-top, input#pass-top{
+    width: 350px;
+    height: 40px;
+}
+
+
+input#log{ /*BOTAO DE LOGIN*/
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    color:black;
+    width: 150px;
+    height: 50px;
+    left: 100px;
+    color:black;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition-duration: .2s;
+    font-size: 20px;
+    margin-bottom: 70px;
+    
+    
+}
+ input#log:hover {
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+}
+
+#forgot{
+    width:12% !important;
+    font-weight:bolder;
+    color:red;
+    padding-left:20px;
+}
+#forgot:hover{
+    cursor:pointer !important;
+    padding-left:21px;
+}
+/**/
+
+/*ANIMAÇÃO TEXTO DA IMAGEM*/
+@keyframes rolar {
+  0% {
+      color: white;
+    opacity: 0;
+    transform: translateX(120rem);
+     }
+    60% {
+    opacity: .5;
+    transform: none;
+    }
+
+  100% {
+    opacity: 1;
+    color:white;
+    transform: none;
+    }
+}
+/**/
+
+div.direito { /*TEXTO DO LADO DA IMAGEM*/
+    animation: rolar 4s ease-out forwards;
+    position: relative;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    max-width: 45%;
+    display:inline-block;
+    margin:0 auto;
+    font-family: "Titillium Web";
+    right: 0;
+    margin-top: 0px;
+    margin-left: 40px;
+    float: right;
+}
+.direito h1{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.direito h3{
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px black;
+    width: auto;
+    position: relative;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+div#boxes{
+    
+    padding-bottom: 100px;
+    padding-top: 10px;
+    /* box-shadow: 1px -10px 20px darkgrey; */
+    background: rgb(76,76,76);
+    background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,.7) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,.5) 50%,rgba(0,0,0,.5) 51%,rgba(17,17,17,.5) 60%,rgba(43,43,43,.5) 76%,rgba(28,28,28,.5) 91%,rgba(19,19,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(76, 76, 76, 0) 0%,rgba(89,89,89,.7) 12%,rgba(102,102,102,.7) 25%,rgba(71,71,71,.7) 39%,rgba(44,44,44,.7) 50%,rgba(0,0,0,.7) 51%,rgba(17,17,17.7) 60%,rgba(43,43,43,.7),rgba(19,19,19,.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 );
+    margin-bottom: -126px;
+}
+
+div.inf { /*INFOS DA PARTE INFERIOR DA PAGINA*/
+    animation-delay: 2s;
+    position: relative;
+    padding:15px;
+    text-align: center;
+    display:inline-table;
+    border: 1px solid white; 
+    border-radius: 5px;
+    background-color:rgba(0,0,0,.7); 
+    font-family: "Titillium Web";
+    min-height: 470px;
+    margin-right: 80px;
+}
+
+div.inf:hover{
+    box-shadow: 1px 1px 10px black;
+}
+div.inf:hover >h2{
+    
+    text-shadow: 1px 1px 3px black;
+}
+
+.bot1{ /*MENSAGEM 2 */
+    margin-left: 80px;
+    /*background-image: url(../_imagens/);
+    background-size:cover;*/
+    width: 280px;
+}
+.bot2{ /*MENSAGEM 2 */
+    /*background-image: url(../_imagens/);
+    background-size: cover;*/
+    width: 380px;
+    
+}
+.bot3{ /*MENSAGEM 2 */
+    /*background-image: url(../_imagens/);
+    background-size: cover;*/
+    width: 280px;
+}
+.inf h2{
+    color: White;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    text-align: left;
+    hyphens: auto;
+}
+.inf p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: justify;
+    width: auto;
+    hyphens: auto;
+}
+
+section#demo{
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    pointer-events:none;
+}
+
+/**/
+
+footer#rodape { /*RODAPE TEMPORARIO*/
+  padding: 1rem;
+  background-color: black;
+  box-shadow: 1px 1px 5px black;
+  text-align: center;
+  max-height: 140px;
+  position: relative; bottom: 0; left: 0; right: 0;
+  filter: none;
+  margin:0;
+  color:antiquewhite;
+}
+
+
+footer#rodape a {
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color:bisque;
+    margin: 5px;
+    max-height: 240px;
+    overflow: visible;
+
+}
+
+footer#rodape h3#valpha {
+    border-top: 1px solid gray;
+    text-align: left;
+}
+
+
+/*MOBILE***********************************************************************************************/
+@media only screen and (max-width: 920px) {
+    
+   /*LOGIN*/
+
+    form#login{
+        width: auto;
+        position: relative;
+        margin: 30px;
+        font-family: "Titillium Web";
+        text-overflow: ellipsis;
+        margin-bottom: -50px;
+        display: inline-grid;
+        bottom:550px;
+        float: right;
+    }
+
+    label#label-login { 
+        display: inline-grid;
+        position: relative;
+        pointer-events: visiblePainted;
+        color: white;
+        margin-top: 50px;
+        margin-left: 70px;
+        text-shadow: 1px 1px 10px black;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .login{
+        font-size:10px;
+        font-family: "Titillium Web";
+        display: inline-flex;
+        position: relative;
+        margin: 10px;
+        margin-left: 20px;
+        margin-bottom: -5px;
+        width: auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: white;
+        color:black;
+        font-weight: bolder;
+        transition-duration: .2s;
+        border-color: gray;
+
+    }
+
+    div#alert-login{
+        margin-top: -30px;
+        margin-bottom: -50px;
+        text-align: center;
+        color: red;
+        background-color: rgba(0,0,0,.5);
+        font-weight: bolder;
+        text-shadow: 1px 1px 5px black;
+    }
+
+/*---------------*/
+
+/*CAMPOS DE EMAIL E PASSWORD*/
+    input#email-top, input#pass-top{
+        width: 350px;
+        height: 40px;
+    }
+
+
+    input#log{ /*BOTAO DE LOGIN*/
+        border: 1px solid black;
+        padding: 10px;
+        background-color: white;
+        color:black;
+        width: 150px;
+        height: 50px;
+        left: 100px;
+        color:black;
+        font-weight: bolder;
+        border: 2px solid black;
+        border-radius: 5px;
+        transition-duration: .2s;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+    
+     input#log:hover {
+        box-shadow: 1px 1px 5px;
+        cursor: pointer;
+    }
+    
+    div.inf { /*INFOS DA PARTE INFERIOR DA PAGINA*/
+        animation-delay: 2s;
+        position: relative;
+        padding:15px;
+        text-align: center;
+        display:inline-table;
+        border: 1px solid white; 
+        border-radius: 5px;
+        background-color:rgba(0,0,0,.7); 
+        font-family: sans-serif;
+        min-height: 470px;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+    
+    div#boxes{
+        max-height:35%;
+        z-index:5;
+        padding-bottom: 100px;
+        padding-top: 10px;
+        /* box-shadow: 1px -10px 20px darkgrey; */
+        background: none;
+        background-color:none;
+        pointer-events:none;
+        margin-bottom: -126px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1090px) {
+    /**/
+    div.direito { /*TEXTO DO LADO DA IMAGEM*/
+        max-width: 50%;
+        position: relative;
+        padding: 20px;
+        height: auto;
+        display:inline-block;
+        margin-left: 10px;
+    
+    }
+    .bot1{
+        margin-right: 0;
+    }
+ 
+    div.inf { /*INFOS DA PARTE INFERIOR DA PAGINA*/
+        animation-delay: 2s;
+        position: relative;
+        padding:15px;
+        text-align: center;
+        display:inline-table;
+        border: 1px solid white; 
+        border-radius: 5px;
+        background-color:rgba(0,0,0,.7); 
+        font-family: sans-serif;
+        min-width: 100%;
+        margin: 5px;
+        min-height: 470px;
+        bottom: 0;
+    } 
+
+    
+}
+
+
+@media only screen and (max-width: 930px) {
+
+
+ 
+    .header-file{ /*IMAGEM*/
+        width: auto;
+        height: 200px;
+        float:left;
+        margin-left: 0px;
+        margin-top: 50px;
+        border: 2px solid black;
+        box-shadow: 1px 1px 10px black;
+        margin-bottom: 50px;
+    }
+    
+    form#login{
+        width: 500px;
+        position: relative;
+        margin: 30px;
+        font-family: "Titillium Web";
+        text-overflow: ellipsis;
+        margin-bottom: -50px;
+        display: inline-block;
+        bottom:40px;
+        float: none;
+    }
+    
+}
+
+/***************************************************************************************************/
+
+
+    
+}
+@media only screen and (max-width: 660px) {
+    /*ANIMAÇÃO TEXTO DA IMAGEM*/
+    @keyframes rolarMob {
+      0% {
+          color: white;
+        opacity: 0;
+        transform: translateY(-120rem);
+         }
+        60% {
+        opacity: .5;
+        transform: none;
+        }
+
+      100% {
+        opacity: 1;
+        color:white;
+        transform: none;
+        }
+    }
+    /**/
+    div.direito { /*TEXTO DO LADO DA IMAGEM*/
+        animation: rolarMob 4s ease-out forwards;
+        position: relative;
+        padding: 20px;
+        height: auto;
+        width: auto;
+        display:inline-block;
+        margin-left: 10px;
+
+    }
+   
+    .header-file{ /*IMAGEM*/
+        width: auto;
+        height: 200px;
+        position:fixed;
+        margin-left: -40px;
+        margin-top: 50px;
+        margin-right: 20px;
+        border: 2px solid black;
+        box-shadow: 1px 1px 10px black;
+        margin-bottom: 50px;
+        padding:0;
+        z-index:7;
+    }
+    section.header-content{
+       
+        border: 1px solid rgba(255,255,255,.5);
+        margin-top: -18px;
+        height: auto;
+        width: 100%;
+        
+    }
+    
+    div.inf { /*INFOS DA PARTE INFERIOR DA PAGINA*/
+        min-width: 100%;
+        margin: 5px;
+        min-height: 470px;
+   
+    }
+    
+}
+
+
+@media only screen and (max-width: 740px){
+
+    div.direito { /*TEXTO DO LADO DA IMAGEM*/
+        max-width: 100%;
+        position: relative;
+        padding: 20px;
+        height: auto;
+        display:inline-block;
+        margin-left: 10px;
+    
+    }
+}
+
+
+/****************************************************************************************************/
+
+@media only screen and (max-width: 425px) {
+
+    body#corpo{
+        height: 150%;
+        width: auto;
+    }
+      a#scroll{
+       padding: 20px;
+        width: auto;
+        height: 100%;
+        margin-top: -5px !important;
+        margin-right: 0px;
+        background: rgba(0,225,5,.7);
+        position: relative;
+        z-index: 11;
+        color: white;
+        display: block;
+        border-radius: .8rem;
+
+    }
+    a#login-href{
+        visibility:visible;
+        display:inline-block;  
+    }
+    
+    .bot1{ /*MENSAGEM 2 */
+        margin-left: 0px;
+        /*background-image: url(../_imagens/);
+        background-size:cover;*/
+
+    }
+    .header-file{ /*IMAGEM*/
+        width: 100%;
+        height: 200px;
+        float:left;
+        left: 0px;
+        margin-top: 70px;
+        margin-right: 20px;
+        border: 2px solid black;
+        box-shadow: 1px 1px 10px black;
+        margin-bottom: 50px;
+        
+    }
+    .videoFix{
+        position:fixed;
+        background-color:none;
+        z-index:5;
+        max-width:180px;
+        margin-top:0;
+        padding-top:0;
+    }
+    .videoRel{
+        position:relative;
+        background-color:none;
+        z-index:initial;
+    }
+    /*ANIMAÇÃO TEXTO DA IMAGEM*/
+    @keyframes rolarMob {
+      0% {
+          color: white;
+        opacity: 0;
+        transform: translateY(-120rem);
+         }
+        60% {
+        opacity: .5;
+        transform: none;
+        }
+
+      100% {
+        opacity: 1;
+        color:white;
+        transform: none;
+        }
+    }
+    /**/
+    div.direito { /*TEXTO DO LADO DA IMAGEM*/
+        animation: rolarMob 4s ease-out forwards;
+        position: relative;
+        padding: 10px;
+        height: auto;
+        width: auto;
+        display:inline-block;
+        margin-left: 0;
+        
+    }
+    
+    form#login{
+        width: auto;
+        position: relative;
+        margin: 0px;
+        margin-top:0;
+        font-family: "Titillium Web";
+        text-overflow: ellipsis;
+        margin-bottom: -50px;
+        display: inline-block;
+        bottom:40px;
+        float: none;
+    }
+    
+    label#label-login { 
+        position: relative;
+        pointer-events: visiblePainted;
+        color: white;
+        margin-top: 50px;
+        margin-left: 50px;
+        text-shadow: 1px 1px 10px black;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .login{
+        margin-left: 5px;
+        margin-bottom: 5px;
+        width: 50%;
+        padding: 10px;
+            
+    }
+    
+    input#email-top, input#pass-top{
+        width: 100%;
+        height: 50px;
+    }
+    
+     input#log{ /*BOTAO DE LOGIN*/
+        width: 150px;
+        height: 50px;
+        left: 0px;
+        display:block;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+    
+    div.inf { /*INFOS DA PARTE INFERIOR DA PAGINA*/
+        animation-delay: 2s;
+        position: relative;
+        padding:20px;
+        text-align: center;
+        display:inline-table;
+        border: 3px solid white; 
+        border-radius: 10px;
+        background-color:rgba(0,0,0,.5); 
+        min-width: 100%;
+        margin-bottom:5px;
+        min-height: 470px;
+   
+    }
+}
+     
+
+/*************************************************************/
+
+@media only screen and (max-width: 360px) {
+
+    
+    body#corpo{
+        height: 150%;
+    }
+    
+    /*.button {
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 15px;
+    }*/
+    
+  
+    
+    nav#bread-crumbs h2 {
+       position: relative;
+        left: 0;
+        top: 0px;
+        font-size: 13px
+    }
+    
+    
+
+    div.direito { /*TEXTO DO LADO DA IMAGEM*/
+        animation: rolarMob 4s ease-out forwards;
+        position: relative;
+        padding: 10px;
+        height: auto;
+        width: auto;
+        max-width: 400px;
+        display:inline-block;
+        margin-left: 0;
+
+    }
+    .direito h1{
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        width: auto;
+    }
+    .direito h3{
+        font-size: 15px;
+        text-align: justify;
+        color: white;
+        text-shadow: 1px 1px black;
+        width: auto;
+        position: relative;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    form#login{
+        height: auto;
+        position: relative;
+        margin: 0px;
+        font-family: "Titillium Web";
+        margin-bottom: -15px;
+        left: 0px;
+    }
+   
+
+    input#log{
+        position: relative;
+       /* margin-left:-20px;*/
+        
+    }
+    
+    
+    div.inf { /*INFOS DA PARTE INFERIOR DA PAGINA*/
+        animation-delay: 2s;
+        position: relative;
+        padding:20px;
+        text-align: center;
+        display:inline-table;
+        border: 3px solid white; 
+        border-radius: 10px;
+        background-color:rgba(0,0,0,.5); 
+        
+        min-width: 100%;
+        margin: 5px;
+        min-height: 470px;
+   
+    }
+    
+
+    .menu{
+        z-index: 10;
+    }
+    
+    footer#rodape{
+        position: relative;
+        bottom: 0;
+        margin:0;
+    } 
+
+}

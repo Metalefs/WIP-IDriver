@@ -1,0 +1,735 @@
+/*EXERCISE NAV*/
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Titillium+Web');
+/* Text styles */
+::-webkit-scrollbar { 
+    display: none; 
+}
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Titillium+Web');
+
+
+@font-face {
+    font-family: 'MuseoSans_500';
+    src: url('MuseoSans_500-webfont.woff2') format('woff2'),
+         url('MuseoSans_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Text styles */
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+nav#exercise-nav a#title{
+    color: white;
+    font-family: "Titillium Web";;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    left: 40px;
+    transition: .5s;
+    display:inherit;
+
+}
+nav#exercise-nav a#title:hover{
+    color: white;
+    text-shadow: 1px 1px 15px black;
+    left: 60px;
+}
+nav#exercise-nav {
+    transform-origin: 0 auto;
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 1px;
+    left:0px;
+    box-shadow: 2px 2px 5px gray;
+    height: 55px;
+    width: 100%;
+    z-index: 8;
+    display:flex;
+    padding: 15px;
+    margin-top: 24px;
+    position: relative; top: 0; left: 0; right: 0;
+    font-size: 16px;
+
+}
+nav#exercise-nav::before,
+nav#exercise-nav::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+nav#exercise-nav::before {
+    border-width: 3em;
+    border-right-color: orange;
+    border-top-color: orange;
+}
+
+nav#exercise-nav::after {
+    border-radius: 0;
+    border-width: 1.3em;
+    border-right-color: white;
+    border-top-color: white;
+}
+/*-----*/
+nav#exercise-nav img#tempicon{
+    width: 40px;
+    height:40px;
+    position: relative;
+    z-index: 8;
+    display:flex;
+    left: 20px;
+    transition-duration: 1s;
+}
+nav#exercise-nav img#tempicon:hover{
+    left: 20px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+nav#exercise-nav nav#visual{
+    font-family: 'Roboto';
+    position: relative;
+    width: auto;
+    min-height: 60px;
+    border: 0px solid red;
+    display: flex;
+    padding: 1px;
+    right: 0;
+    bottom: 10px;
+    overflow: scroll;
+    margin-left: 50px;
+    margin:0 auto;
+    margin-right: 0px;
+    font-size: 12px;
+}
+ul{
+    list-style: none; 
+}
+nav#exercise-nav div#icondiv{
+    position: relative;
+    width: 80px; 
+    display: flex;
+    top: -6px;
+    margin-right: 115px;
+}
+
+
+/*EXERCISE NAV*/
+div#nav-points {
+    position: relative;
+    float: right;
+    margin: 0 auto;
+}
+.scoreNav {
+    position: relative;
+    top: 0px;
+    margin: 2px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    max-width: 140px;
+    max-height: 50px;
+    display: flex;
+}
+div#score {
+    margin: 0px;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin-right: -80px;
+    max-width: 100px;
+    max-height: 25px;
+    margin-bottom: 8px;
+
+}
+div#score p{
+    position: relative;
+    font-weight: bolder;
+    width: auto;
+    right: 20px;
+}
+div#points-bar{
+    background-color: lightgreen;
+    border:0; 
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    transition-duration: .5s;
+}
+.marks{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,.3);
+    margin: 0 auto;
+    background-color: white;
+    transition-duration: 1s;
+}
+@keyframes spin {
+    0%{
+      border-top-color:lightgreen;
+      transform:rotate(0deg);
+      content:'0';
+    }
+    50%{
+        border-top-color:lightgreen;
+        border-right-color:lightgreen;
+    }
+    70%{
+        border-top-color:lightgreen;
+        border-right-color:lightgreen;
+        border-bottom-color:lightgreen;
+        transform:rotate(720deg); 
+    }
+    120%
+    {   
+      border-top-color:lightgreen;
+      border-right-color:lightgreen;
+      border-bottom-color:lightgreen;
+      border-left-color:lightgreen;
+      transform:rotate(-360deg);  
+    }
+}
+.loading{
+    position:relative;
+    display:inline-block;
+    border:3px solid;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+}
+.true{
+    visibility:visible;
+    display:inline-block;
+    animation:spin 1s infinite ease-in-out;
+}
+.false{
+    display:none;
+    visibility:hidden;
+}
+div#marks{
+    padding: 20px;
+    border: 0;
+}
+div#mark1{
+    
+}
+
+@keyframes top-down {
+  0% {
+      color: white;
+    opacity: 0;
+    transform: translateY(.5rem);
+     }
+    60% {
+    opacity: .5;
+    transform: none;
+    }
+
+  100% {
+    opacity: 1;
+    
+    transform: none;
+    }
+}
+.feedback-audio{
+    display:none;
+    visibility:hidden;
+}
+.feedback{
+    position:relative;
+    animation: top-down .41s ease-in forwards;
+    display:inline-flex;
+    z-index:10;
+    visibility:visible;
+    background-color:rgba(255,255,255,.88);
+    height:30px;
+    width:30px;
+}
+
+.correct{
+    background-color: green;
+}
+.wrong{
+    background-color: red !important;
+}
+div#failedDiv{
+    margin:50px;
+}
+.options{
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+    margin-left: 0%;
+    /* margin-bottom: 5px; */
+    display: inline-block;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    background-color: orangered;
+}
+.finishBtn{
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: greenyellow;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+.options:hover{
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+}
+.finishBtn:hover{
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
+}
+
+/**/
+
+/*MAIN PAGE*/
+body#exercise-body{
+    width:100%;
+    margin:10px;
+    margin-top: -25px;
+    margin-right:0px;
+    margin-left:0px;
+    background-color: black;
+}
+main#exercise-page{
+    position: relative;
+    margin: 0 auto;
+    padding: 64px;
+    border-radius: 110px;
+    box-shadow: 1px 1px 50px gray;
+    background-color: white;
+}
+div#ex-padding{
+    padding: 24px;
+    padding-top: 10px;
+}
+
+h4#ex-title,h3#ex-desc{/*TITULO DO EXERCICIO*/
+    color: rgba(0,0,0,.5);
+    font-size: 15px;
+}
+main#exercise-page img{
+    max-width: 500px;
+    max-height:250px;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+div#description{
+    margin-bottom: 0px;
+}
+div#description::first-letter{
+   text-transform:capitalize;
+
+}
+
+div#ex-display{
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+div#question{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+div#questionBox{
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;  
+    
+    border-radius:50px;
+}
+div#finishBox{
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:lightgray;
+}
+div#finishBox h3 {
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    font-size: unset;
+}
+.xl63{
+    width:auto;
+    pointer-events: none !important;
+}
+.xl65{
+     pointer-events: none !important;
+}
+.xl65 td,tr,table{
+     pointer-events: none !important;
+}
+h1#ex-question{
+    position: relative;
+    /*display: inline-block;*/
+    margin: 0 auto;
+    font-size:30pt;
+    font-family:"Roboto";
+}
+h1#ex-question table{
+    width:100% !important;
+    margin:0 auto;
+    text-align: center;
+    font-size:inherit;
+}
+ h1#ex-question tr{
+    width:100% !important;
+    
+     
+}
+h1#ex-question td{
+    width:100% !important;
+}
+
+
+h1#ex-question::first-letter{
+   text-transform:capitalize;
+
+}
+h1#ex-question::after{
+    margin-bottom: 10px ;
+}
+div#answers{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.alternatives{
+    border: 5px black;
+    border-style:dotted solid;
+    padding: 25px;
+    margin: 10px;
+    min-height: 50px;
+    min-width: 120px;
+    width: auto;
+    /*background-image: ;*/
+    border-radius: 5px;
+    margin-left: 40px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Roboto";
+    transition-duration:.21s;
+}
+.alternatives::first-letter{
+   text-transform:capitalize;
+
+}
+
+
+.altNum{
+    position: relative;
+    display: inline;
+    right: 30px;
+
+}
+.alternatives:hover{
+    cursor:pointer;
+    background-color: rgba(0,0,0,.2);
+    min-height:100px;
+}
+.alternatives img{
+    pointer-events: none;
+    max-height:400px;
+}
+.alternatives audio, canvas, progress, video,controls{
+    pointer-events: auto;
+}
+button#exit{
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    box-shadow:1px 1px 10px gray;
+
+}
+/***/
+footer#rodape{
+    
+}
+
+@media only screen and (max-width: 500px) {
+    nav#exercise-nav a#title{
+    color: white;
+    font-family: "Titillium Web";;
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    left: 40px;
+    transition: .5s;
+    display:inherit;
+
+    }
+    nav#exercise-nav a#title:hover{
+        color: white;
+        text-shadow: 1px 1px 15px black;
+        left: 60px;
+    }
+    nav#exercise-nav {
+        transform-origin: 0 auto;
+        background-color: black;
+        overflow: hidden;
+        padding-bottom: 1px;
+        left:0px;
+        box-shadow: 2px 2px 5px gray;
+        height: 65px;
+        width: 100%;
+        z-index: 8;
+        display:flex;
+        padding: 15px;
+        margin-top: 24px;
+        position: relative; top: 0; left: 0; right: 0;
+        font-size: 16px;
+    
+    }
+    nav#exercise-nav::before,
+    nav#exercise-nav::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-color: transparent;
+        border-style: solid;
+    }
+    nav#exercise-nav::before {
+        border-width: 3em;
+        border-right-color: orange;
+        border-top-color: orange;
+    }
+    
+    nav#exercise-nav::after {
+        border-radius: 0;
+        border-width: 1.3em;
+        border-right-color: white;
+        border-top-color: white;
+    }
+    /*-----*/
+    nav#exercise-nav img#tempicon{
+        width: 40px;
+        height:40px;
+        position: relative;
+        z-index: 8;
+        display:flex;
+        left: 20px;
+        transition-duration: 1s;
+    }
+    nav#exercise-nav img#tempicon:hover{
+        left: 20px;
+        transform: rotate(180deg);
+        cursor: pointer;
+    }
+    nav#exercise-nav nav#visual{
+        font-family: 'Roboto';
+        position: relative;
+        width: auto;
+        min-height: 60px;
+        border: 0px solid red;
+        display: flex;
+        padding: 1px;
+        right: 0;
+        bottom: 10px;
+        overflow: scroll;
+        margin-left: 50px;
+        margin:0 auto;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    ul{
+        list-style: none; 
+    }
+    nav#exercise-nav div#icondiv{
+        position: relative;
+        width: 80px; 
+        display: flex;
+        top: 18px;
+        margin-right: 115px;
+    }
+    
+    nav#exercise-nav {
+        padding-top:0;
+        margin-top:-10px;
+        margin-bottom:20px;
+    }
+    
+    div#ex-padding{
+        padding:10px;
+    }
+    /*EXERCISE NAV*/
+    div#nav-points{
+        position: relative;
+    }
+    .scoreNav{
+        position: relative;
+        top: 40px;
+        margin: 2px;
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        margin-right: 2px;
+        max-width: 102px;
+        max-height: 50px;
+        float: right;
+        display: flex;
+    }
+    div#score{
+           margin-right: 20%;
+    
+    }
+    div#marks{
+        
+           margin-bottom: 50px;
+    }
+    .loading{
+        position:relative;
+        display:inline-block;
+        border:3px solid;
+        border-radius:50%;
+        width:25px;
+        height:25px;
+        margin-top:150px;
+    }
+
+    /**/
+    main#exercise-page img, video, audio{
+        max-width: 130px;
+        display: block;
+        border: 4px solid black;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    
+    main#exercise-page iframe{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    body#exercise-body{
+        margin:0px;
+        margin-bottom: 30px;
+        margin-right:0px;
+        padding: 0px;
+    }
+    main#exercise-page {
+        position: relative;
+        margin-left: 0px;
+        padding: 5px !important;
+        padding-top: 15px !important;
+        border-radius: 25px;
+        box-shadow: 1px 1px 50px grey;
+    }
+    body#exercise-body{
+        margin:0px;
+        margin-bottom: 30px;
+        margin-right:0px;
+        padding: 0px;
+    }
+
+    h4#ex-title,h3#ex-desc{/*TITULO DO EXERCICIO*/
+        color: rgba(0,0,0,.5);
+        font-size: 11px;
+        margin-left: 20px;
+    }
+    div#description{
+        font-size: 11px;
+        margin-bottom: -50px;
+    }
+
+    div#ex-display{
+        margin: 0 auto;
+        position: relative;
+        padding:5px;
+    }
+
+    div#question{
+        position: relative;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    div#questionBox {
+        position: relative;
+        margin-top: 100px;
+        /* margin: 0 auto; */
+        /* padding: 20px; */
+        position: relative;
+        /* margin: 0 auto; */
+        padding:0;
+        border-radius: 50px;
+    }
+    h1#ex-question{
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+
+    }
+    h1#ex-question table{
+        font-size:medium;
+    }
+    h1#ex-question::after{
+        margin-bottom: 10px ;
+    }
+    div#answers{
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        height:auto;
+    }
+    section#answerSection{
+        padding:0;
+        margin:0;
+    }
+    
+    div#alternatives1{
+        margin-top:30px;
+    }
+    
+    .alternatives{
+        padding: 15px;
+        margin: 10px;
+        height: auto;
+        min-width:150px;
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .altNum{
+        position: relative;
+        display: inline;
+        right: 30px;
+
+    }
+    .alternatives:hover{
+        cursor:pointer;
+        background-color: rgba(0,0,0,.5);
+    }
+
+}
