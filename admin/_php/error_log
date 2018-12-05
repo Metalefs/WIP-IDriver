@@ -1,0 +1,120 @@
+[29-Oct-2018 12:36:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 12:36:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 12:36:41 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_3.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 12:36:41 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 12:36:41 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 12:45:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 12:45:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 12:45:00 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_5.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 12:45:00 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 12:45:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 18:59:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 18:59:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 18:59:57 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_1.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 18:59:57 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 18:59:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:03:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:03:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:03:48 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_2.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:03:48 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:03:48 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:05:48 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_3.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:05:48 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:05:48 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:06:35 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:06:35 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:06:35 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_4.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:06:35 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:06:35 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:07:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:07:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:07:20 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_5.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:07:20 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:07:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:08:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:08:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:08:11 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_6.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:08:11 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:08:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:09:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:09:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:09:00 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_7.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:09:00 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:09:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:09:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:09:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:09:40 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_8.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:09:40 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:09:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:18:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:18:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:18:52 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_9.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:18:52 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:18:52 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:19:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:19:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:19:33 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_10.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:19:33 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:19:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:20:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:20:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:20:16 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_11.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:20:16 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:20:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:20:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:20:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:20:51 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_12.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:20:51 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:20:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:21:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:21:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:21:27 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_13.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:21:27 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:21:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:22:18 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:22:18 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:22:18 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_14.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:22:18 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:22:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:23:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:23:00 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:23:00 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_15.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:23:00 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:23:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:24:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:24:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:24:09 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_16.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:24:09 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:24:09 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:25:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:25:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:25:09 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_18.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:25:09 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:25:09 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:25:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:25:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:25:44 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_20.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:25:44 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:25:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:29:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:29:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:29:37 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_21.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:29:37 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:29:37 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:30:26 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:30:26 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:30:26 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_22.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:30:26 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:30:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:31:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:31:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:31:04 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_23.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:31:04 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:31:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
+[29-Oct-2018 20:31:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 107
+[29-Oct-2018 20:31:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 110
+[29-Oct-2018 20:31:45 UTC] PHP Warning:  fopen(__DIR__/../../content/2/exercise/2_24.json): failed to open stream: No such file or directory in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 116
+[29-Oct-2018 20:31:45 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 117
+[29-Oct-2018 20:31:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/u911430744/public_html/eumotorista/admin/_php/ExerciseGen.php on line 118
