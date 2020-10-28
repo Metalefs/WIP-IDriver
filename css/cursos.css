@@ -1,0 +1,167 @@
+nav#bread-crumbs img#tempicon{
+    width: 40px;
+    height:40px;
+    position: relative;
+    z-index: 8;
+    display: inline-block;
+    left: 25px;
+    top:-12px;
+    transition-duration: 1s;
+}
+
+body#corpo{
+    margin-top:100px;
+}
+
+form#check-box{
+    position: relative;
+    display: inline;
+    margin: 0 auto;
+    right: 0;
+}
+input#checkmoto{
+    visibility: hidden;
+}
+input#checkcarro{
+    visibility: hidden;
+}
+
+form#check-box input#continuar{
+    font-size: 20px;
+    font-family: "Titillium Web";
+    font-weight: bolder;
+    color:white;
+    float: right;
+    
+    margin-right: 100px;
+    text-shadow: 1px 1px 10px black;
+    position: relative;
+    border: 0;
+    padding: 25px;
+    border-radius: 20px;
+    transition-duration: .31s;
+    background-color: orange;
+    background-image: url(../_imagens/arrow.png);
+    background-size: contain;
+}
+form#check-box input#continuar:hover {
+    box-shadow: 1px 1px 10px black;
+    left:2px;
+    cursor: pointer;
+}
+
+.checked{
+    padding: 20px;
+    position: relative;
+    border: 0px dashed green;
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    transition-duration: .61s;
+    border-radius: 0px;
+}
+
+.checked:hover{
+    content: "Marcado";
+}
+  
+
+
+/*ANIMAÇÃO TEXTO DA IMAGEM*/
+@keyframes rolar {
+  0% {
+    color: white;
+    opacity: 0;
+    transform: translateX(-20rem);
+     }
+    60% {
+    
+    transform: none;
+    }
+
+  100% {
+    opacity: 1;;
+    transform: none;
+    }
+}
+/**/
+
+header#selecione.inf-box{
+    animation: rolar 1s ease-in forwards;
+	position: relative;
+	background-color: black;
+	max-width:400px;
+    height: 100px;
+	width: auto;
+	color: white;
+	text-align: center;
+    border-bottom-right-radius: 50px;
+}
+main#cursos{
+	position: relative;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.box-name{
+    
+    position: relative;
+    text-shadow: 1px 1px 10px black;
+    transition-duration: .61s;
+}
+
+div#c1{
+    background-image: url('../_imagens/greencar.png');
+    background-position: center;
+    background-size: cover;
+}
+div#c2{
+	background-image: url('../_imagens/moto2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.curso-container{
+    padding: 20px;
+	position: relative;
+    border: 0px dashed green;
+	width: 100%;
+	max-width: 350px;
+	height: 100px;
+	color: white;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    transition-duration: .61s;
+    border-radius: 0px;
+}
+
+.curso-container:hover {
+    background-color: rgba(0,20,0,.5);
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+    
+.curso-container:hover > .box-name {
+   
+   
+   margin-left: 100px;
+    
+}
+
+
+section#message-curso{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+

@@ -1,0 +1,253 @@
+nav#bread-crumbs a#title{
+    color: white;
+    font-family: "Titillium Web";
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    left: 50px;
+    transition: .5s;
+    display:inherit;
+}
+nav#bread-crumbs a#title:hover{
+    color: white;
+    text-shadow: 1px 1px 15px black;
+    left: 60px;
+}
+
+nav#bread-crumbs {
+    background-color: black;
+    padding-bottom: 1px;
+    left:0px;
+    position: relative;
+    box-shadow: 2px 2px 15px #e6e7e7;
+    height: 67px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    z-index: 8;
+    display:flex;
+    padding: 15px;
+    position: fixed; top: 0; left: 0; right: 0;
+    font-size: 16px;
+}
+nav#bread-crumbs::before,
+nav#bread-crumbs::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+nav#bread-crumbs::before {
+    border-width: 1.5em;
+    border-right-color: black;
+    border-top-color: black;
+}
+
+nav#bread-crumbs::after {
+    border-radius: 0;
+    border-width: 1.35em;
+    border-right-color: white;
+    border-top-color: white;
+}
+/*-----*/
+
+
+nav#bread-crumbs img#tempicon{
+    width: 40px;
+    height:40px;
+    position: relative;
+    z-index: 8;
+    display:flex;
+    left: 20px;
+}
+nav#bread-crumbs img#tempicon:hover{
+    left: 20px;
+    cursor: pointer;
+}
+
+nav#bread-crumbs nav#visual{
+    font-family: 'Roboto';
+    position: relative;
+    width: auto;
+    min-height: 60px;
+    border: 0px solid red;
+    display: flex;
+    padding: 1px;
+    right: 0;
+    bottom: 10px;
+    overflow: scroll;
+    margin-left: 50px;
+    margin:0 auto;
+    margin-right: 0px;
+    font-size: 12px;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+nav#bread-crumbs div#icondiv{
+    position: relative;
+    width: 100px; 
+    display: flex;
+    margin-right: 146px;
+}
+
+.nav-item{
+    display: inline-block;
+    
+}
+
+img#avatar{/*AVATAR*/
+    position: relative;
+    max-width: 50px;
+    height: auto;
+    border-radius: 100px;
+    background-color: white;
+}
+
+img#config{
+    position: relative;
+    max-width: 40px;
+    height: auto;
+    margin: 0;
+    border-radius: 100px;
+    margin-top: 5px;    
+}
+img#logout{
+    position: relative;
+    width: 30px;
+    height: auto;
+    margin: 0;
+    right: -10px;
+    margin-top: 10px;
+    transition-duration: .9s;
+}
+img#logout:hover{
+    width: 35px;
+    transform:translateX(-20px);
+    box-shadow: 1px 1px 10px red;
+}
+
+li#user{
+    margin-right: 10px;
+    width: 150px;
+    cursor: pointer;
+    
+    
+}
+li#user:hover{
+    background-color: rgba(255,255,255,.2);
+}
+
+h3#nav-username{/*USERNAME*/
+    position: relative;
+    display: inline;
+    color:white;
+    margin: 0;
+    width: auto;
+    transition-duration: .6s;
+}
+li#user h3:hover{/*USERNAME*/
+    left: 1px;
+    color:red;
+    
+}
+
+
+
+li#cogli{
+    
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+}
+li#cogli:hover{
+    
+}
+
+li#logoutli{
+    position: relative;
+    right: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+li#logoutli:before{
+    content: "Sair":
+    
+}
+/*ASIDE - DROPDOWN*/
+
+@keyframes rolar {
+  0% {
+      color: white;
+    opacity: 0;
+    transform: translateX(120rem);
+     }
+    60% {
+    opacity: .5;
+    transform: none;
+    }
+
+  100% {
+    opacity: 1;
+    color:white;
+    transform: none;
+    }
+}
+.menu {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    height: auto;
+    display: block;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,.5);
+    animation: rolar 1s ease-out forwards;
+    animation-duration: .6s;
+    z-index: 11;
+    margin-right: 15px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.menu li{
+    margin-right: 0px;
+    z-index: 11;
+    margin-top: -10px;
+    border-radius: 5px;
+    max-width: 200px;
+    display: inline;
+}
+.menu li:hover{
+    z-index: 11;
+    color: red;
+    margin: 0;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.5);
+}
+.hidden {
+    margin-top: -00px;
+    display: none;
+    height: 0;
+    z-index: 10;
+    visibility: hidden;
+    animation-duration: .2s;
+    animation: rolar .6s ease-out forwards;
+}
+.show {
+    z-index: 10;
+    animation: rolar .2s ease-out forwards;
+    visibility: visible;
+    animation-duration: .6s;
+}
+@media only screen and (max-width: 295px) {
+
+
+    img#avatar{
+        visibility: hidden;
+        display: none;
+    }
+    
+}

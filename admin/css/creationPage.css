@@ -1,0 +1,119 @@
+
+/*NAV*/
+
+nav#bread-crumbs{
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px black;
+}
+
+/*PAGINA PRINCIPAL, DE SELEÇÃO DE TIPO DE CONTEUDO*/
+.selection{
+    margin: 50px;
+    display: block;
+    color:black;
+    font-weight:bolder;
+    font-size:20px;
+}
+main.creation-selection {
+    
+    position: relative;
+    height:600px;
+    display:block;
+}
+a#MC{
+    display: inline;
+    color: white;
+    
+}
+
+textarea{
+    overflow: scroll;
+    resize: both;
+}
+/*------------------------*/
+
+/*CRIAÇÃO DE EXERCICIOS*/
+header{
+    text-align: center;
+    display: inline;
+}
+main.ex-creation {
+    position: relative;
+    padding: 50px;
+    margin-top: 0px;
+}
+main.ex-creation input{
+    margin: 10px;
+    max-width: 950px;
+    min-width: 120px;
+}
+
+.materialContent, input, advanced-textfield{
+    border-radius: 10px;
+    border: 0 solid;
+    width: 100%;
+    max-width: 700px;
+    min-width: 120px;
+}
+.form input{
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 250px;
+  
+    
+}
+.addImage{
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-color: white;
+    display: inline;
+    width: 80px;
+}
+
+
+h4#obs{
+    position: relative;
+    text-align-last: center;
+    margin-bottom: 0;
+}
+
+table#alts div{
+    
+}
+
+button.create-button{
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    background-color: orange;
+    background-image: url(../../_imagens/arrow.png);
+    background-size: contain;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+h3.guide{
+    font-weight: bolder;
+    color: red;
+    display: inline;
+}
+select{
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+/*open and close alternatives*/
+
+
+/*-------------------------*/
+
+footer#rodape2{
+    position: relative;
+    margin-top: 10px;
+    border-radius: 0;
+    bottom: 0;
+}

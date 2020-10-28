@@ -1,0 +1,217 @@
+
+section#signup {
+    animation: pop-in .8s ease-out forwards;
+    position: fixed;
+    right:35%;
+    top:20%;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 20x black;
+    z-index: 10;
+}
+
+.hide-signup{
+    display: none;
+    visibility: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+
+.show-signup{
+    animation: pop-in .8s ease-out forwards;
+    background-color: rgba(255,255,255,.8);
+    position: fixed;
+    visibility: visible;
+    z-index: 10;
+    transition-delay: .5s;
+}
+
+@keyframes rolar-baixo {
+  0% {
+    color: white;
+    opacity: 0;
+    transform: translateY(50rem);
+     }
+
+  100% {
+    opacity: 1;
+    color:white;
+    transform: none;
+    }
+}
+
+div#alert-box{
+    animation: rolar-baixo 1s ease-out forwards;
+    border-radius: 5px;
+    border-top: 0;
+    transition-delay: 5s;
+}
+div#alert-box h3{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+div#begra {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.begra-show {
+    visibility: visible;
+    z-index: 9;
+    
+}
+.begra-hide {
+    visibility: hidden;
+   
+
+}
+
+
+/*LOGIN*/
+
+h1#titleinsc {
+    color: black;
+}
+
+form#insc{
+    height: auto;
+    width: 400px;
+    position: relative;
+    font-family: "Open Sans";
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+form#insc h2 {
+    position: relative;
+    color: black;
+    z-index: 10;
+    display: inline;
+    font-size: 15px;
+    top: 15px;
+    color: rgba(0,0,0,0.75);
+}
+
+h2#ema, h2#use, h2#nom{
+    
+    left:20px;
+}
+
+label#emai, label#user{
+    border: none;
+}
+
+label#lidade{
+    left: 20px;
+    font-size: 10px;
+    max-width: 50px;
+}
+
+.inscform{
+    text-align: center;
+    margin-top: -8px;
+    font-size:10px;
+    border-top-style:hidden;
+    font-family: "Open Sans";
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    transition-duration: .7s;
+}
+
+.inscform:hover{
+    background-color: lightblue;
+    box-shadow: 1px 1px 10px black;
+}
+
+.inscform:target >label.focus{
+    color: white;
+}
+
+/*CAMPOS DE EMAIL E PASSWORD*/
+div#senha img{
+    position: relative;
+    top: 18px;
+    left: 300px;
+    display: inline;
+    z-index: 10;
+    animation-delay: 1s;
+    width: 15px;
+    height:15px;
+}
+div#senha img:hover{
+    cursor: pointer;
+}
+
+div#senha {
+    margin-top: -3px;
+}
+
+div#senha h2{
+    left: -10px;
+}
+
+form#insc label#idade{
+    position: relative;
+    left: 20px;
+}
+
+input#send{ /*BOTAO DE LOGIN*/
+    z-index: 10;
+    margin-top: 25px;
+    border: none;
+    background-color: white;
+    color:black;
+    width: auto;
+    height: 60px;
+    position: relative;
+    margin-left: 260px;
+    color:black;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition-duration: .2s;
+    font-size: 13px;
+}
+ input#send:hover {
+    box-shadow: 1px 1px 5px;
+    cursor: pointer;
+}
+/*ALTERAR CAMPO PASSWORD*/
+
+
+.eye {
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+.eye:hover {
+   left:2px;
+}
+
+.hidden-field {
+    visibility: hidden;
+    margin-bottom: -200px;
+   
+}
+
+.field-show {
+    overflow: visible;
+    visibility: visible;
+    margin-bottom: 0px;
+    
+
+}
